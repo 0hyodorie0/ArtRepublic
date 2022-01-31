@@ -10,12 +10,9 @@
         box-sizing: inherit;
     }
     
-    body,
-    ul,
-    li {
+    body {
         margin: 0;
         padding: 0;
-        list-style: none;
         font-family: 'Montserrat', sans-serif;
     }
     
@@ -27,7 +24,7 @@
     
     .section {
         position: relative;
-        text-align: center;
+        height: 100vh;
     }
     
     .section video {
